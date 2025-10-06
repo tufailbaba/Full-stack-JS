@@ -87,7 +87,7 @@ console.log(firstFavName !== secondFavName);
 
 //strings
 
-let firstName = "Tufail ";
+let firstName = "Tufail";
 secondName = " Baba";
 let fullName  = firstName + secondName;
 // console.log(firstName);
@@ -96,9 +96,51 @@ let fullName  = firstName + secondName;
 
 //Append
 firstName += "Ahmad";
-console.log(firstName);
+// console.log(firstName);
+//length
 
-console.log(firstName.length);
+// console.log(firstName.length);
+
+//Cases
+
+// console.log(firstName.toLocaleLowerCase());
+
+//Slice
+
+// console.log(firstName.slice(0,1));
+
+//Split & Join
+
+// console.log(firstName.split(" "));
+
+//Includes
+
+// console.log(firstName.includes("u"));
+
+//Trim
+
+// console.log(firstName.trim);
+
+//Exercises
+
+let favActorFirstName = "Shahruk "
+let favActorLastName = "Khan"
+
+let fullname = favActorFirstName.concat(favActorLastName)
+// console.log(fullname);
+
+// console.log(fullName.toUpperCase ());
+
+let message = `My favorite Actor Name is ${fullname} and he is Bot`
+message += `lala`
+// console.log(message.toUpperCase( ));
+
+//
+
+
+
+
+
 
 
 
