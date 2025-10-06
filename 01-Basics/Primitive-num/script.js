@@ -60,9 +60,8 @@ console.log(favnum + undefined);
 */
 //Relational Operators
 
-console.log(10>10); //false
-console.log(10>=10); //true
-
+// console.log(10>10); //false
+// console.log(10>=10); //true
 // Equality Operators 
 /** 
 console.log(10 === 10);
@@ -71,7 +70,7 @@ console.log(10 !== '10');
 */
 
 //Exercises
-
+/**
 let firstFavName = 3;
 let secondFavName = 313;
 console.log(firstFavName > secondFavName);
@@ -82,6 +81,28 @@ console.log(firstFavName === secondFavName);
 console.log(firstFavName ==  secondFavName);
 console.log(firstFavName != secondFavName);
 console.log(firstFavName !== secondFavName);
+
+ */
+
+
+//strings
+
+let firstName = "Tufail ";
+secondName = " Baba";
+let fullName  = firstName + secondName;
+// console.log(firstName);
+// console.log(fullName);
+
+
+//Append
+firstName += "Ahmad";
+console.log(firstName);
+
+console.log(firstName.length);
+
+
+
+
 
 
 
