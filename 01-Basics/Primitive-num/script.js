@@ -135,7 +135,13 @@ let message = `My favorite Actor Name is ${fullname} and he is Bot`
 message += `lala`
 // console.log(message.toUpperCase( ));
 
-//
+//Type Conversion
+
+
+let money = "50.25"
+money = parseFloat(money)
+console.log(money);
+console.log(typeof money);
 
 
 
