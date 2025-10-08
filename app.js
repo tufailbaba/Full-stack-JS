@@ -67,14 +67,25 @@ switch (fruit) {
   case "Apple":
     console.log("How you like them Apples");
     break;
-    default:
-        console.log("I never heard of that fruit");
-        
+  default:
+    console.log("I never heard of that fruit");
 }
 
 //For loops
-for (let i =0; i<=1000; i++){
-    console.log("Tufail loves Safiya");
-    
+for (let i = 0; i <= 1000; i++) {
+  console.log("Tufail loves her", i);
+}
+//while loops
+let i =10;
+while (i<=100){
+    console.log("Tufail baba",i);
+    i++;
 }
 
+//Do while loop
+let j =1;
+do{
+    console.log('Hi tufail',i);
+    i++;
+}
+while(i<=5);
