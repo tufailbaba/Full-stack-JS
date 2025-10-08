@@ -71,3 +71,10 @@ switch (fruit) {
         console.log("I never heard of that fruit");
         
 }
+
+//For loops
+for (let i =0; i<=1000; i++){
+    console.log("Tufail loves Safiya");
+    
+}
+
