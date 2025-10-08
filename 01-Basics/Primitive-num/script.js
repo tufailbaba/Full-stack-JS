@@ -139,7 +139,7 @@ message += `lala`
 
 
 let money = "50.25"
-money = parseFloat(money)
+// money = parseFloat(money)
 console.log(money);
 console.log(typeof money);
 
