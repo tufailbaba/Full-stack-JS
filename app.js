@@ -83,9 +83,30 @@ while (i<=100){
 }
 
 //Do while loop
+/** 
 let j =1;
 do{
     console.log('Hi tufail',i);
     i++;
 }
 while(i<=5);
+
+let m = 20;
+do{
+    console.log("Tufailll", i);
+ i++   
+}
+while(i<=400)
+*/
+
+//Logical Operators
+const q = true;
+const w = false;
+const c = 4;
+console.log(q||w);
+console.log(q&&w);
+console.log(!a);
+//
+
+
+
