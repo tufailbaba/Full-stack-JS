@@ -25,3 +25,41 @@ function myFunction(a,b){
 }
 const result = (myFunction(10,5))
 console.log(result);
+//function declaration
+function sayHello (username){
+    console.log(`Hello  ${username}`);
+    console.log(`Welcome to the platform, ${username}`);
+}
+sayHello("Tufail");
+
+//function expression
+const sayHi = function (username){
+    console.log(`Hi  ${username}`);
+    console.log(`Welcome to the platform, ${username}`);
+}   
+sayHi("Ali");
+
+//Callback function
+
+ function showCallfunc1 (fn){
+    const value =10
+    fn(value)
+ }
+ showCallfunc1(function(value){
+    console.log(value);
+    
+ })
+
+ //Exercise
+
+ function showCallFunc (fn){
+    const value = 16
+    fn(value)
+ }
+showCallFunc(function(value){
+    console.log(value);
+    
+})
+
+
+ 
