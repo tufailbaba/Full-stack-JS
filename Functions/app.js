@@ -60,6 +60,11 @@ showCallFunc(function(value){
     console.log(value);
     
 })
-
+showCallFunc(function(value){
+    console.log(value*value);   
+})
+showCallFunc(function(value){
+    console.log(value*value*value);   
+})
 
  
