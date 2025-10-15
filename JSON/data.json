@@ -1,0 +1,9 @@
+{
+    "name": "Tufail Baba",
+    "age" : 20,
+    "email": "email@gmail.com",
+    "adress ":{
+        "city": "Sopore",
+        "idk":true
+    }
+}
