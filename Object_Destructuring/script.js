@@ -32,4 +32,20 @@ let {a,b, ...rest}={a:100,b:200,c:300,d:400,e:500}
 // console.log(a);
 // console.log(b);
 console.log(rest);
+// challenge
+
+const Person ={
+    NAme:"Tufi",
+    Age:20,
+    Country:"kashmir"
+}
+// const{NAme,Age,Country}=Person
+// console.log("Person Name", NAme);
+// console.log("Person Age", Age);
+// console.log("Person Country", Country);
+
+const{NAme:personName, Age:personAge, Country:personCountry}=person;
+console.log(personName);
+console.log(personAge);
+console.log(personCountry);
 
