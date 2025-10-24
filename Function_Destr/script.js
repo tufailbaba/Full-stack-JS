@@ -11,3 +11,5 @@ function printPersonInfo({ name, age, country }) {
 }
 
 printPersonInfo(person);
+
+
